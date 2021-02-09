@@ -1,0 +1,62 @@
+@font-face{
+    font-family: 'Montserrat';
+    src: url('/landingpage/fonts/Montserrat-Regular.ttf')
+}
+#main{
+    max-width: 1200px;
+    margin: 0px auto;
+    /* background-color: white; */
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: #fffd8c;
+}
+
+body {
+    background-color: #f7f7ff;
+    background-image: url(images/bg-image/scooter.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.apply{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.main-logo{
+    width: 10%;
+    height: auto;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.socials{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.calculate-form{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+.calc-button{
+    background-color: #ff8480;
+    border: none;
+    color: #ff8480;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 1200px){
+    .html{width: 100%;}
+}

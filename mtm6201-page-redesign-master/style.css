@@ -1,0 +1,48 @@
+/* add specificity in order to override base styles (using what we have learned in class) */
+#nav.nav {
+    width: 1200px;
+    margin: 0px auto;
+    padding: 30px;
+    border: 3px solid indianred;
+    background-color: lightblue;
+    /* colour theme chosen, using indian red, and light blue. */
+    text-align: center;
+  }
+  #main.main {
+    max-width: 1200px;
+    margin: 0px auto;
+    background-color: indianred;
+  }
+  #home.home {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 100px;
+    background-color: indianred;
+  }
+  /* fonts changes to all font families to fit them all to times new roman and stick to a theme */
+  section.home {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  #about.about {
+    padding: 100px 0px;
+    background-color: lightblue;
+  }
+  .about#about {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.75rem;
+    color: black;
+  }
+  #contact{
+    padding: 100px 0px;
+    background-color: indianred;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  /* font size changed to 1.5rem, and centered to fit better in the contact form */
+  .contact-form .contact-form-section{
+    padding: 30px;
+    background-color: lightblue;
+    width: 600px;
+    margin: 0px auto;
+  }
