@@ -1,0 +1,393 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* Change font later - somthing more pleasing */
+}
+
+
+@media only screen and (max-width: 600px) {
+    header{
+        background-image: url("../prototype-midterm/images/testback.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    ul{
+        /* nav tabs pushed to right */
+        float: right;
+        list-style-type: none;
+        margin-top: 25px;
+    }
+    
+    ul li{
+        /* Displaying the nav tabs in a row */
+        display: inline-block;
+    }
+    
+    ul li a{
+        /* defining the nav links by adding a transparent box around them */
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        /* Adding in slight animation to the tabs to let fade in */
+        transition: 0.6s ease;
+    }
+    
+    ul li a:hover{
+        background-color: #fff;
+        color: #000;
+    }
+    ul li.active a{
+        /* for when the link is active - it should stay this colour */
+        background-color: #fff;
+        color: #000;
+    }
+    .logo img{
+        /* Moving the logo to the left, and adjusting size */
+        float: left;
+        width: 150px;
+        height: auto;
+    }
+    
+    .main{
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+    .title{
+        /* Title moved */
+        position: absolute;
+        top: 50%;
+        Left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .title h1{
+        color: #fff;
+        font-size: 70px;
+    }
+    
+    
+    /* Styles of the buttons similar to link styles */
+    .button{
+        /* Buttons added beneath the title */
+        position: absolute;
+        top: 60%;
+        Left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .btn{
+        border: 1px solid #fff;
+        padding: 10px 30px;
+        color: #fff;
+        text-decoration: none;
+        /* another transition animation for the buttons  */
+        transition: 0.6s ease;
+    }
+    
+    .btn:hover{
+        /* hover of button changes the background to white and font stays black */
+        background-color: #fff;
+        color: #000;
+    }
+}
+
+
+
+
+
+/* ------------------------------------------
+---------------------------------------------
+-------------------------------------------- */
+/* For screens @max width 1200 VVVVVVVV */
+
+
+
+@media only screen and (max-width: 1200px) {
+header{
+    background-image: url("../prototype-midterm/images/testback.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    /* nav tabs pushed to right */
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    /* Displaying the nav tabs in a row */
+    display: inline-block;
+}
+
+ul li a{
+    /* defining the nav links by adding a transparent box around them */
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    /* Adding in slight animation to the tabs to let fade in */
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+    /* for when the link is active - it should stay this colour */
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    /* Moving the logo to the left, and adjusting size */
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    /* Title moved */
+    position: absolute;
+    top: 50%;
+    Left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+
+/* Styles of the buttons similar to link styles */
+.button{
+    /* Buttons added beneath the title */
+    position: absolute;
+    top: 60%;
+    Left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    /* another transition animation for the buttons  */
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    /* hover of button changes the background to white and font stays black */
+    background-color: #fff;
+    color: #000;
+}
+
+}
+
+
+
+
+
+/* -----------------------------------------------------
+--------------------------------------------------------
+-------------------------------------------------------- */
+/* For screens above 1200px */
+header{
+    background-image: url("../prototype-midterm/images/testback.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    /* nav tabs pushed to right */
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    /* Displaying the nav tabs in a row */
+    display: inline-block;
+}
+
+ul li a{
+    /* defining the nav links by adding a transparent box around them */
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    /* Adding in slight animation to the tabs to let fade in */
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+    /* for when the link is active - it should stay this colour */
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    /* Moving the logo to the left, and adjusting size */
+    float: left;
+    width: 300px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    /* Title moved */
+    position: absolute;
+    top: 50%;
+    Left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+
+/* Styles of the buttons similar to link styles */
+.button{
+    /* Buttons added beneath the title */
+    position: absolute;
+    top: 60%;
+    Left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    /* another transition animation for the buttons  */
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    /* hover of button changes the background to white and font stays black */
+    background-color: #fff;
+    color: #000;
+}
+
+.property img{
+    float: none;
+    width: 600px;
+    height: auto;
+}
+
+/* ----------------------------------------------------
+-----------------------------------------------------------
+--------------------------------------------------------- */
+/* styling the contact form */
+
+.container{
+    max-width: 800px;
+    height: auto;
+    background: none;
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+p{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.input,
+.message .area{
+    /* creating the area for the message area */
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border: 2px solid rgb(161, 161, 253);
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.5s;
+}
+
+.name .input{
+    width: 45.5%;
+    float: left;
+    margin-right: 4%;
+}
+
+.name .inupt:last-child{
+    margin-right: 0;
+}
+
+.message .area{
+    height: 300px;
+}
+
+.input:focus,
+.message .area:focus{
+    border: 2px solid rgb(161, 161, 253);
+}
+
+.submit{
+    width: 100%;
+    text-align: center;
+}
+
+.submit .contactbtn{
+    /* styling the submit button */
+    padding: 12px 85px;
+    font-size: 19px;
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.container2{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+    background: none;
+}
+
+.container2 .aboutinfo{
+    /* stlying the information */
+    position: relative;
+    width: calc(1200px - 30px);
+    height: calc(400px - 30px);
+    background: none;
+    float: left;
+    margin: 15px;
+    padding-left: 10%;
+    box-sizing: border-box;
+}
+.property{
+    /* moving the image using flex */
+    display: flex;
+    justify-content: center;
+    padding-top: 8.5%;
+}
